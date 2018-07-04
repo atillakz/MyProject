@@ -1,0 +1,15 @@
+<!doctype html>
+
+<title> Supervised Learning  </title>
+
+
+{% if predictions %}
+
+<form class="solid" method="post">
+  <h1>Predicted values of Classification :  {{ predictions }}!</h1>
+</form>
+{% else %}
+
+  <h1>Hello World!</h1>
+
+{% endif %}
